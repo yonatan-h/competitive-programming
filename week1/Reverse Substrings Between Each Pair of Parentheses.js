@@ -28,8 +28,3 @@ function reverseUptoOpeningBracket(stack) {
 
 	stack.push(...reversedStringStack);
 }
-
-//30 minutes
-//two accepted solutions
-const s = "(ed(et(oc))el)";
-console.log(reverseStringsBetweenBrackets(s));

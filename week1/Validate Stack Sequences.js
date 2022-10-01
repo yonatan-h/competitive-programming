@@ -38,6 +38,3 @@ function getTopElement(stack) {
 	const lastElement = stack.length ? stack[stack.length - 1] : undefined;
 	return lastElement;
 }
-
-//3hours
-//3 submisssions

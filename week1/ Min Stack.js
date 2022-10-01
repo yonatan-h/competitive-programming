@@ -43,13 +43,3 @@ MinStack.prototype.getMin = function () {
 	const topNode = this.getTopNode();
 	return topNode.minValue;
 };
-
-//1hr
-//one submission
-const object = new MinStack();
-object.push(100);
-object.push(101);
-object.push(0);
-object.push(1);
-object.getMin();
-console.log(object.list);

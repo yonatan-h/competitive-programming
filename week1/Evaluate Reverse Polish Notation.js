@@ -35,8 +35,3 @@ function operate(operand, num1, num2) {
 	else if (operand === "*") return num1 * num2;
 	else if (operand === "/") return Math.trunc(num1 / num2);
 }
-
-//3hrs
-//10 wrong submissions
-const tokens = ["4", "13", "5", "/", "+"];
-console.log(evalRPN(tokens));

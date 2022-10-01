@@ -24,6 +24,3 @@ function calculateArea(x1, height1, x2, height2) {
 	const area = lowerHeight * width;
 	return area;
 }
-
-//3 submissions
-//1.5hr
