@@ -30,5 +30,3 @@ function getProductOfArrayExceptSelf(numbers) {
 
 	return productsExceptSelf;
 }
-//35min
-//3sub

@@ -48,5 +48,3 @@ function getWindowSums(numbers, windowLength) {
 
 	return windowSums;
 }
-//40min
-//1 sub

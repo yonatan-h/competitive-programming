@@ -80,6 +80,3 @@ function findAnagramIndexes(string, anagramWord) {
 var findAnagrams = function (s, p) {
 	return findAnagramIndexes(s, p);
 };
-
-//140
-//2 submissions

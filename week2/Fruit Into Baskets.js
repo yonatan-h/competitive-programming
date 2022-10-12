@@ -37,5 +37,3 @@ function takeMaximumFruits(fruits) {
 
 	return longestFruitsSlice.end - longestFruitsSlice.start + 1;
 }
-//3hrs
-//1submission

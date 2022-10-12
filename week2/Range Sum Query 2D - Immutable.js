@@ -89,6 +89,3 @@ NumMatrix.prototype.sumRegion = function (y1, x1, y2, x2) {
 
 	return rectangleRegionSum;
 };
-
-//3hrs
-//1submission

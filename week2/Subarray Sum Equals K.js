@@ -28,6 +28,3 @@ function getCumulativeSums(numbers) {
 	}
 	return cumulativeSums;
 }
-
-//35 minutes
-console.log(findNumberOfSubArraysThatSum([1, 1, 1], 2));

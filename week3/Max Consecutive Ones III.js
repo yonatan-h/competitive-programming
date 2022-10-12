@@ -30,6 +30,3 @@ function findLongestOnes(binaryArray, onesInBucket) {
 	}
 	return maxChainLength;
 }
-
-//3hrs
-//2submissions

@@ -30,6 +30,3 @@ function findLongestNonRepeatingSubString(string) {
 }
 
 console.log(findLongestNonRepeatingSubString("abcabcbb"));
-
-//50 minutes
-//3 submissions

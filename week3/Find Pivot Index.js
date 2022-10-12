@@ -21,6 +21,3 @@ function findPivotIndex(numbers) {
 	}
 	return -1;
 }
-
-//50 min
-//3 submission

@@ -41,6 +41,3 @@ function getLastElement(array) {
 	const lastElement = array[lastIndex];
 	return lastElement;
 }
-
-//3 submission
-//80 min
