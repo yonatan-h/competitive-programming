@@ -4,16 +4,15 @@ var isPalindrome = function (string) {
 
 function isValidPalindrome(nonAlphanumbericString) {
   const string = nonAlphanumbericString
-    .split()
+    .split("")
     .map((char) => (isAlphanumeric(char) ? char : ""))
     .join("")
     .toLowerCase();
 
-  console.log(string);
-
-  for (let i = 0; i < string.length / 2; i++) {
+  for (let i = 0; i < 1 + string.length / 2; i++) {
     const leftParallel = string[i];
     const rightParallel = string[string.length - 1 - i];
+
     if (leftParallel !== rightParallel) return false;
   }
 
@@ -21,9 +20,9 @@ function isValidPalindrome(nonAlphanumbericString) {
 }
 
 function isAlphanumeric(char) {
-  const alphaNumeric = /[A-z]|[1-9]/;
+  const alphaNumeric = /[A-Z]|[a-z]|[0-9]/;
   const match = char.match(alphaNumeric);
   return match !== null;
 }
 
-console.log(isValidPalindrome("A man, a plan, a canal: Panama"));
+//20min
