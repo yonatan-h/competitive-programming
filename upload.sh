@@ -6,6 +6,6 @@ git add .
 git commit -m "answer"
 
 echo $token
-git push
+#git push
 
 read -p "done"
