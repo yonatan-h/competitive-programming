@@ -2,6 +2,6 @@
 
 git add .
 git commit -m "answer"
-git push
+git push < ~/token1
 
 read -p "done"
