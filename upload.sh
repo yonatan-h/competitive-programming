@@ -5,7 +5,7 @@ gitoken=$(cat ~/token1)
 git add .
 git commit -m "answer"
 
-echo $token
+echo $gittoken
 #git push
 
 read -p "done"
