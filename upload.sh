@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gitoken=$(~/token1)
+gitoken=$(cat ~/token1)
 
 git add .
 git commit -m "answer"
