@@ -1,11 +1,13 @@
 #!/bin/bash
 
-gitoken=$(cat ~/token1)
+GIT_TOKEN=$(cat ~/token1)
 
 git add .
 git commit -m "answer"
 
-echo $gittoken
+echo "---"
+echo $GIT_TOKEN
+echo "---"
 #git push
 
 read -p "done"
