@@ -20,3 +20,6 @@ def find_nearest_point(x_center, y_center, points):
             smallest_manhattan_distance = manhattan_distance
 
     return index_of_nearest
+
+#1sub
+#25min
