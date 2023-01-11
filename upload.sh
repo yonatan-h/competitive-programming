@@ -1,13 +1,6 @@
 #!/bin/bash
 
-GIT_TOKEN=$(cat ~/token1)
-
+cd /home/yonatan/Desktop/javoby/leetcode/competitive-programming
 git add .
 git commit -m "answer"
-
-echo "---"
-echo $GIT_TOKEN
-echo "---"
 git push
-
-read -p "done"
