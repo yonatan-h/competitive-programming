@@ -6,5 +6,5 @@ class Solution:
             permuted_array[num] = nums[nums[num]]
         return permuted_array
 
-#1sum
+#1sub
 #1min
