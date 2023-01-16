@@ -10,4 +10,4 @@ class Solution:
             s[left],s[right] = s[right], s[left]
         
 #7min
-#1sub
+#2sub
