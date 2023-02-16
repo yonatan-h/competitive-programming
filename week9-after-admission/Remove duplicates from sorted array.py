@@ -8,3 +8,6 @@ class Solution:
                 
         unique_length = holder+1
         return unique_length
+    
+#10min
+#1sub
