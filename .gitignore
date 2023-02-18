@@ -1,7 +1,8 @@
-upload.sh
 dummy.py
 other
 */input
 */contest
 */contest/input
 hidden
+./upload.sh
+./run-mirkusve.sh
