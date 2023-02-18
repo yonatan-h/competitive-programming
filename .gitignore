@@ -4,5 +4,5 @@ other
 */contest
 */contest/input
 hidden
-./upload.sh
-./run-mirkusve.sh
+upload.sh
+run-mirkusve.sh
