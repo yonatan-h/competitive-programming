@@ -1,0 +1,45 @@
+class Solution:
+    def shiftingLetters(self, s: str, shifts: List[int]) -> str:
+        letters = list(s)
+        instruction = compress_instructions(shifts)
+        
+        running_shift = 0
+        for i in range(len(instruction)-1):
+            running_shift += instruction[i]
+            old_letter = letters[i]
+            new_letter = shift_letter(old_letter, running_shift)
+            letters[i] = new_letter
+        
+        return "".join(letters)
+            
+            
+            
+        
+        
+        
+        
+        
+def shift_letter(letter, steps):
+    order = ord(letter)
+    order_of_a = ord('a')
+    
+    human_order = order - order_of_a
+    new_human_order = (human_order + steps) % 26
+    new_order = order_of_a + new_human_order
+    return chr(new_order)
+
+def compress_instructions(shifts):
+    instruction = [0]*(len(shifts)+1)
+        
+    for i in range(len(shifts)):
+        shift = shifts[i]
+        start_index = 0
+        end_index = i+1
+
+        instruction[start_index] += shift
+        instruction[end_index] -= shift
+            
+    return instruction
+    
+#30
+#1sub
