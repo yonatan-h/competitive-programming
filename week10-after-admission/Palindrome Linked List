@@ -1,0 +1,65 @@
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def isPalindrome(self, head: Optional[ListNode]) -> bool:
+        return is_palindrome(head)
+        
+def is_palindrome(head):
+    if not head: return True
+    
+    middle = find_middle(head)
+    last  = break_and_reverse(middle)
+    return compare_parallel(head, last)
+
+
+def find_middle(head):
+    slow = head
+    fast = head
+    
+    while fast and fast.next:
+        slow = slow.next
+        fast = fast.next.next
+    
+    return slow
+
+def break_and_reverse(node):
+    prev_node = node
+    cur_node = node.next
+    
+    prev_node.next = None
+    
+    while cur_node:
+        next_node = cur_node.next
+        
+        cur_node.next = prev_node
+        prev_node = cur_node
+        cur_node = next_node
+    
+    return prev_node
+
+def compare_parallel(node1, node2):
+    
+    while node1 and node2:
+        val1 = node1.val
+        val2 = node2.val
+        
+        if val1 != val2:
+            return False
+        
+        node1 = node1.next
+        node2 = node2.next
+        
+    return True
+        
+    
+    
+#30min
+#2sub
+        
+        
+        
+        
+        
