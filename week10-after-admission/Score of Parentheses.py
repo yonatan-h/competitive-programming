@@ -21,5 +21,5 @@ class Solution:
             
                 
                 
-#60
+#60min
 #1sub 
