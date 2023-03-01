@@ -58,3 +58,5 @@ def decode_level(string):#aa2[...]
     return decoded
             
 
+#50min
+#1sub
