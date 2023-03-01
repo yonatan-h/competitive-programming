@@ -1,6 +1,4 @@
 
-
-        
 class Solution:
     def isPowerOfThree(self, target_num: int) -> bool:
         if target_num < 0:
