@@ -16,3 +16,5 @@ def is_power_of_four(cur_num, target_num):
     
     next_num = cur_num*4
     return is_power_of_four(next_num, target_num)
+#5min
+#1sub

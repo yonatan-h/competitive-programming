@@ -20,3 +20,5 @@ def is_power_of_three(cur_num, target_num):
     next_num = cur_num*3
     return is_power_of_three(next_num, target_num)
 
+#5min
+#1sub
