@@ -18,11 +18,6 @@ class Solution:
 
         return (min_sums) % ((10 **9) + 7)
 
-                    
-
-
-
-
-
+                
  #40min
 #5sub
