@@ -32,3 +32,5 @@ def traverse_count(node, val_counts):
     
     traverse_count(node.left, val_counts)
     traverse_count(node.right, val_counts)
+
+#1sub

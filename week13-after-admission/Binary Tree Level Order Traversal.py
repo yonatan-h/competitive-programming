@@ -27,3 +27,5 @@ class Solution:
 
         self.save_index(node.left, level+1)
         self.save_index(node.right, level+1)
+
+#1sub

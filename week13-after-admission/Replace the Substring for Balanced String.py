@@ -56,3 +56,5 @@ def can_shrink(window, excess, left_letter):
     #restore from test
     window[left_letter] += 1
     return True
+
+#4sub

@@ -35,6 +35,5 @@ def divide_n_sum(nums, divider):
     return sum_divided
 
 
-
-    
+#14sub
 

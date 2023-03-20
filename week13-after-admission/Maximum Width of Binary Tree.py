@@ -36,13 +36,4 @@ class Solution:
         self.save_width(row+1, right_index, node.right)
 
 
-        
-
-
-        
-
-
-
-
-
-
+#6sub

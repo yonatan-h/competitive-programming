@@ -25,4 +25,4 @@ class Solution:
             self.count += 1
         return (sum_tree, num_tree)
         
-        
+#2sub

@@ -34,3 +34,5 @@ class Solution:
         self.col_row_values[col].append((row, node.val))
         self.traverse_append(row+1, col-1, node.left)
         self.traverse_append(row+1, col+1, node.right)
+
+    #1sub

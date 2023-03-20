@@ -15,3 +15,5 @@ class Solution:
                 arr.append(self.nums[i])
                 self.generate(i, arr)
                 arr.pop()
+
+#1sub
