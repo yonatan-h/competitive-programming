@@ -20,3 +20,7 @@ def find_adders(target, nums):
         for needed_index in needed_indexes:
             if needed_index != num_index:
                 return [num_index, needed_index]
+        
+            
+        
+    
